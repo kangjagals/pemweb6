@@ -1,0 +1,30 @@
+#atas {
+    width: 93%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atas {
+    width: 30%;
+    height: 100%;
+}
+
+ #bawah {
+    width: 93%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.bawah {
+    width: 17%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}

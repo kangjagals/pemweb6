@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 80vh;
+}
+
+nav {
+    background-color: chartreuse ;
+    width: 20vh;
+    padding: 1em;
+}
+
+.div1 {
+    flex-direction: column;
+}
+
+.div2 {
+    display: flex;
+}
+
+header {
+    background-color: lightseagreen;
+    width: 80vh;
+    height: 15vh;
+}
+
+aside {
+    background-color: orange;
+    width: 20vh;
+}
+
+footer {
+    background-color: maroon;
+    width: 80vh;
+    height: 15vh;
+}
+
+article {
+    background-color: lemonchiffon;
+    width: 60vh;
+    height: 50vh;
+    flex: 2;
+}
